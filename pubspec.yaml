@@ -1,0 +1,34 @@
+name: memora
+description: "Memora App"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  audioplayers: ^6.4.0
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  assets:
+    - assets/sounds/
+
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: Fonts/Inter-VariableFont_opsz,wght.ttf
+          style: italic
+          weight: 400
